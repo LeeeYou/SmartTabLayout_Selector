@@ -1,7 +1,7 @@
 # SmartTabLayout_Selector
 
 ## Rendering
-![]()
+![smart_tab_layout_selector.png](https://github.com/LeeeYou/SmartTabLayout_Selector/blob/master/smart_tab_layout_selector.png)
 
 ## Instruction
 1. 利用SmartTabLayout实现多条件过滤的选择器效果
