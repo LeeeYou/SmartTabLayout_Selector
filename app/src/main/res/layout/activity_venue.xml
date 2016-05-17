@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_tab"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@id/tab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3" />
+
+        <CheckBox
+            android:id="@+id/checkBox_today_available"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableRight="@drawable/selector_today_available"
+            android:gravity="center"
+            android:paddingRight="10dp"
+            android:text="今日可订"
+            android:textColor="#333"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/ll_tab" />
+
+    <ListView
+        android:id="@+id/listView_example"
+        android:layout_width="match_parent"
+        android:background="#729833"
+        android:layout_height="match_parent"
+        android:layout_below="@id/viewpager" />
+
+</RelativeLayout>
